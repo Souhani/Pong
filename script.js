@@ -72,10 +72,10 @@ function Paddle(position, dimension, velocityY) {
 }
 
 // the player paddle (paddle1)
-const paddle1 = new Paddle(vec2(10, 100), vec2(10, 100), 7);
+const paddle1 = new Paddle(vec2(10, 100), vec2(10, 100), 8);
 
 //the computer paddle (paddle2)
-const paddle2 = new Paddle(vec2(width-20, 100), vec2(10, 100), 6);
+const paddle2 = new Paddle(vec2(width-20, 100), vec2(10, 100), 8);
 
 // the ball object
 const ball = new Ball(vec2(100,100), 20, vec2(15,15));
